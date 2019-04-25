@@ -34,7 +34,7 @@ export default class Header extends Component {
                 <ul id="nav-mobile" className="sidenav">
                     <li><a href="#!">Hello, {this.props.nickName}!</a></li>
                     <li><a href="#!">Moves: {this.props.moves}</a></li>
-                    <li><a href="#!" onClick={this.props.onShuffle}><i className="material-icons">refresh</i>Refresh</a></li>
+                    <li><a href="#!" onClick={this.props.onShuffle}><i className="material-icons">refresh</i>Shuffle</a></li>
                     <li><a href="#!"><i className="material-icons">help</i>Help</a></li>
                     <li><a href="#!" onClick={this.props.onLeave}><i className="material-icons">logout</i>Exit</a></li>
                 </ul>
