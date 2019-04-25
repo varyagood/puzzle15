@@ -2,6 +2,7 @@
   "name": "puzzle-15",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://varyagood.github.io/puzzle15",
   "dependencies": {
     "materialize-css": "^1.0.0",
     "react": "^16.8.6",

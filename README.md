@@ -4,6 +4,10 @@ This project provides popular Puzzle 15 game that works in web browser.
 It was made as part of my school project and open for usage and education.
 It is based on React and uses Materialize CSS to provide responsive and modern looking UI.
 
+## Live Demo
+
+You can play puzzle here [https://varyagood.github.io/puzzle15/](https://varyagood.github.io/puzzle15/)
+
 ## Screenshots
 
 ![Join Form](/docs/join-form.png)
