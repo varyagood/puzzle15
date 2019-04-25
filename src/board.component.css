@@ -1,0 +1,78 @@
+.board {
+    padding-top: 50px;
+}
+
+.lgg .stop0 {
+    stop-color: #DFE5ED;
+}
+
+.lgg .stop1 {
+    stop-color: #A5B1C1;
+}
+
+.stone {
+    fill-rule: nonzero;
+    stroke: #000000;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+.stone .poligon1 {
+    fill: #A9B9CF;
+}
+
+.stone .poligon2 {
+    fill: #A9B9CF;
+}
+
+.stone .rect {
+    fill: url(#lg1);
+}
+
+.stoneNumber {
+    font-size: 50px;
+    text-anchor: middle;
+    fill: #000000;
+    stroke: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.boxLeftTop {
+    fill-rule: evenodd;
+    stroke-linejoin: round;
+    stroke: #000000;
+    stroke-width: 2;
+}
+
+.boxLeftTop .backwood {
+    fill: #E3B074;
+}
+
+.boxLeftTop .topinner {
+    fill: #B27125;
+}
+
+.boxLeftTop .leftinner {
+    fill: #DDA15B;
+}
+
+.boxRightBottom {
+    fill-rule: evenodd;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke: #000000;
+    stroke-width: 2;
+}
+
+.boxRightBottom .rightoutside {
+    fill: #DDA15B;
+}
+
+.boxRightBottom .bottomoutside {
+    fill: #B27125;
+}
+
+.boxRightBottom .boxtopside {
+    fill: #E8BF8F;
+}
