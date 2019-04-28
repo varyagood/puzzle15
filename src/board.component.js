@@ -36,7 +36,7 @@ export default class Board extends Component {
 
         return (
             <div className="row center">
-                <svg className="board center-align" width={`${size * 125}px`} height={`${size * 125}px`} viewBox={`0,0, ${size}60,${size}60`}>
+                <svg className="board center-align" viewBox={`0,0, ${size}60,${size}60`}>
                     <defs>
                         <linearGradient className="lgg" id="lgg">
                             <stop className="stop0" offset="0" />
