@@ -10,6 +10,7 @@ export default class Header extends Component {
     componentDidMount() {
         console.log('Header.componentDidMount >', this);
         M.Sidenav.init(document.querySelectorAll('.sidenav'));
+        M.Tooltip.init(document.querySelectorAll('.tooltipped'));
     }
 
     render() {
@@ -24,9 +25,9 @@ export default class Header extends Component {
                         <ul className="right hide-on-med-and-down">
                             <li><a href="#!">Hello, {this.props.nickName}!</a></li>
                             <li><a href="#!">Moves: {this.props.moves}</a></li>
-                            <li><a href="#!" onClick={this.props.onShuffle}><i className="material-icons">refresh</i></a></li>
-                            <li><a href="#!"><i className="material-icons">help</i></a></li>
-                            <li><a href="#!" onClick={this.props.onLeave}><i className="material-icons">logout</i></a></li>
+                            <li><a href="#!" onClick={this.props.onShuffle} className="tooltipped" data-position="bottom" data-tooltip="Shuffle"><i className="material-icons">refresh</i></a></li>
+                            <li><a href="#!" className="tooltipped" data-position="bottom" data-tooltip="Help"><i className="material-icons">help</i></a></li>
+                            <li><a href="#!" onClick={this.props.onLeave} className="tooltipped" data-position="bottom" data-tooltip="Exit"><i className="material-icons">logout</i></a></li>
                         </ul>
                     </div>
                 </nav>
