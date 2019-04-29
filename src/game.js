@@ -59,7 +59,7 @@ export default class Game {
     }
 
     isWin() {
-        for (let pos = 0; pos < this.size * this.size; pos++) {
+        for (let pos = 0; pos < this.size * this.size - 1; pos++) {
             if (this.stone(pos) !== pos + 1) { return false }
         }
 
